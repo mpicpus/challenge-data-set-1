@@ -202,6 +202,13 @@
       "supplierId": 4
     },
     {
+      "id": 36,
+      "name": "Prawns",
+      "costPerServing": 1.3,
+      "weightInGramsPerServing": 35,
+      "supplierId": 4
+    },
+    {
       "id": 23,
       "name": "Chicken",
       "costPerServing": 0.8,
@@ -308,6 +315,960 @@
       "targetStock": 20,
       "currentStock": 0,
       "price": 0.33
+    }
+    ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "name": "Ronald Inho",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Sam Francisco",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Pete Illo",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Francis Kanner",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Tom Illo",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Kat Astrophe",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Carmen Sita",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Fred Kefá",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Arlo Mehor",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Olivia d'Anchoa",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Emma Tocritico",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Avery Littlething",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Mila Gritos",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Scarlett Witch",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Eleanor Rigby",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Chloe Patra",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Layla Land",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Nora Brimos",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Hugo deFrutas",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Zachary Nah",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Frank Einstein",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Roman Empire",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Ezra El",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Toby Yoss",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Carter Ista",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Rony Ceros",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Liam Parilla",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Ollie Phant",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Leon Cello",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Alfred Hitchcock",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Amelia Altura",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Sophia Denadie",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Isabella Lugosi",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Eva Engarde",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Grace Mile",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Ellie Phant",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Hazel Nut",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Leah Ketteleah",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Addison Square",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Lucy Ernaga",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Aubrey Laporta",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Caroline Sweet",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Ruby Mine",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Quinn Elisabeth",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Sarah Tonto",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Cora Coles",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Piper Mint",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Clara Mente",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Melanie Nah",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Luke Whoscoming",
+      "type": "large",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Amos Hombre",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Crispin Clander",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Seth Demal",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Blake Through",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Rowan Kenobi",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Teddy Murphy",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Arlo Cuandopuedas",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Harrison George",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Logan Orsubscribe",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Luca That",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Jaxon Five",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Isaac Arina",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Leo Pocco",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Lucas Phelms",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Pau Sado",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Saul Itaire",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Jean Paul Sartén",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Jack Sparragow",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Finn Tech",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Sarah Mago",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Richard Coal",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Pam Boli",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Donald McRonald",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "John Johnson",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Loki Kieras",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Thor Tilla",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Mandy Huevs",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Tom Tom",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Kim Portant",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Lilly Bye",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Marcel Inho",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Nick Aso",
+      "type": "large",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Justin Kase",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Paco Merte",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Hansel Gretelson",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Fritz Kola",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Candice Forall",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Stevie Awe",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Jane Dough",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Tira Lee",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Juuso Eija Tähtinen",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Joona Marjaana Aalto",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Armo Aino Takala",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Esteri Antti Toivonen",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Severi Aleksi Salo",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Sal Itre",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Ivette Moles",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Tangi Noguera",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Smokey Salomon",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Quim Agnarsson",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Ramachandra Mag Eochadha",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Sarvesh Hashiguchi",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Indrajit Ó Maol Bhréanáin",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Jodoc McNee",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Isibéal McNiven",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Malina Mac an tSagairt",
+      "type": "small",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Nikoloz Glenn",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Takahiro Hirano",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Kenzo McTavish",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Ambrosi Takahashi",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Astrid Martinsson",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Korneli Lomidze",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Jerker Chester",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Kia Sandberg",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Nino Björklund",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Irine Lifesounds",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Gio Gelashvili",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Marine Crystaldancer",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "morning"
+    },
+    {
+      "id": 1,
+      "name": "Rusudani Solarfriend",
+      "type": "small",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Tatiana SeptemberSoul",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Haypusher Jones",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Picklepicker Ó Cuaig",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Barleygreaser Carpenter",
+      "type": "large",
+      "weekdays": [2, 4],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Notorious Funk Emplus",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Bling Money Wartfire",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Ice Dog Papa Papa",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Opus DJ P",
+      "type": "large",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Broxom Obio",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Darktooth Bubblecharm",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Hazelhex Stewjaw",
+      "type": "medium",
+      "weekdays": [1, 3, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Leatherdrip Snakestare",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Bristlecurse Beetlesneer",
+      "type": "small",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Boilhex Hellweed",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Insane Blob Adair",
+      "type": "medium",
+      "weekdays": [1, 2, 3, 4, 5],
+      "timePreference": "afternoon"
+    },
+    {
+      "id": 1,
+      "name": "Atomic Threat Kearney",
+      "type": "large",
+      "weekdays": [1, 3, 5],
+      "timePreference": "evening"
+    },
+    {
+      "id": 1,
+      "name": "Angry Queen Tuft",
+      "type": "medium",
+      "weekdays": [2, 4],
+      "timePreference": "morning"
     }
   ]
 }
