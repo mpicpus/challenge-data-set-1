@@ -1,6 +1,28 @@
 {
-  "business_logic": {
+  "businessLogic": {
     "margin": 0.2
+  },
+  "apiSettings": {
+    "permissions": {
+      "businessLogic": [
+        "index"
+      ],
+      "suppliers": [
+        "show",
+        "index"
+      ],
+      "products": [
+        "show",
+        "index"
+      ],
+      "salads": [
+        "show",
+        "index",
+        "delete",
+        "update",
+        "create"
+      ]
+    }
   },
   "suppliers": [
     {
@@ -171,49 +193,57 @@
       "costPerServing": 0.6,
       "weightInGramsPerServing": 45,
       "supplierId": 4
-    },{
+    },
+    {
       "id": 22,
       "name": "Smoked Salmon",
       "costPerServing": 1.1,
       "weightInGramsPerServing": 35,
       "supplierId": 4
-    },{
+    },
+    {
       "id": 23,
       "name": "Chicken",
       "costPerServing": 0.8,
       "weightInGramsPerServing": 100,
       "supplierId": 4
-    },{
+    },
+    {
       "id": 24,
       "name": "Feta Cheese",
       "costPerServing": 0.85,
       "weightInGramsPerServing": 45,
       "supplierId": 3
-    },{
+    },
+    {
       "id": 25,
       "name": "Crunchy Onion",
       "costPerServing": 0.5,
       "weightInGramsPerServing": 25,
       "supplierId": 3
-    },{
+    },
+    {
       "id": 26,
       "name": "Crunchy Bacon",
       "costPerServing": 0.65,
       "weightInGramsPerServing": 25,
       "supplierId": 3
-    },{
+    },
+    {
       "id": 27,
       "name": "Apple",
       "costPerServing": 0.7,
       "weightInGramsPerServing": 75,
       "supplierId": 1
-    },{
+    },
+    {
       "id": 28,
       "name": "Nuts",
       "costPerServing": 0.8,
       "weightInGramsPerServing": 35,
       "supplierId": 2
-    },{
+    },
+    {
       "id": 29,
       "name": "Sesame Seeds",
       "costPerServing": 0.7,
