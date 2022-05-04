@@ -1,6 +1,20 @@
 {
   "businessLogic": {
-    "margin": 0.2
+    "margin": 0.2,
+    "saladTypes": {
+      "small": {
+        "targetCost": 2.5,
+        "targetWeight": 250
+      },
+      "medium": {
+        "targetCost": 3.5,
+        "targetWeight": 350
+      },
+      "large": {
+        "targetCost": 4.5,
+        "targetWeight": 450
+      }
+    }
   },
   "apiSettings": {
     "permissions": {
@@ -51,253 +65,289 @@
       "id": 1,
       "name": "Lettuce",
       "costPerServing": 0.3,
-      "weightInGramsPerServing": 100,
-      "supplierId": 1
+      "weightPerServing": 100,
+      "supplierId": 1,
+      "hoursFresh": 24
     },
     {
       "id": 2,
       "name": "Tomato",
       "costPerServing": 0.4,
-      "weightInGramsPerServing": 100,
-      "supplierId": 1
+      "weightPerServing": 100,
+      "supplierId": 1,
+      "hoursFresh": 48
     },
     {
       "id": 3,
       "name": "Cherry Tomato",
       "costPerServing": 0.5,
-      "weightInGramsPerServing": 75,
-      "supplierId": 1
+      "weightPerServing": 75,
+      "supplierId": 1,
+      "hoursFresh": 48
     },
     {
       "id": 4,
       "name": "Pasta",
       "costPerServing": 0.2,
-      "weightInGramsPerServing": 100,
-      "supplierId": 3
+      "weightPerServing": 100,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 5,
       "name": "Cous-cous",
       "costPerServing": 0.25,
-      "weightInGramsPerServing": 100,
-      "supplierId": 3
+      "weightPerServing": 100,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 6,
       "name": "Rice",
       "costPerServing": 0.25,
-      "weightInGramsPerServing": 100,
-      "supplierId": 3
+      "weightPerServing": 100,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 7,
       "name": "Potato",
       "costPerServing": 0.2,
-      "weightInGramsPerServing": 100,
-      "supplierId": 2
+      "weightPerServing": 100,
+      "supplierId": 2,
+      "hoursFresh": 48
     },
     {
       "id": 8,
       "name": "Red Pepper",
       "costPerServing": 0.4,
-      "weightInGramsPerServing": 50,
-      "supplierId": 2
+      "weightPerServing": 50,
+      "supplierId": 2,
+      "hoursFresh": 24
     },
     {
       "id": 9,
       "name": "Green Pepper",
       "costPerServing": 0.35,
-      "weightInGramsPerServing": 50,
-      "supplierId": 1
+      "weightPerServing": 50,
+      "supplierId": 1,
+      "hoursFresh": 24
     },
     {
       "id": 10,
       "name": "Cucumber",
       "costPerServing": 0.34,
-      "weightInGramsPerServing": 50,
-      "supplierId": 2
+      "weightPerServing": 50,
+      "supplierId": 2,
+      "hoursFresh": 24
     },
     {
       "id": 11,
       "name": "Onion",
       "costPerServing": 0.3,
-      "weightInGramsPerServing": 50,
-      "supplierId": 1
+      "weightPerServing": 50,
+      "supplierId": 1,
+      "hoursFresh": 48
     },
     {
       "id": 12,
       "name": "Chive",
       "costPerServing": 0.65,
-      "weightInGramsPerServing": 35,
-      "supplierId": 2
+      "weightPerServing": 35,
+      "supplierId": 2,
+      "hoursFresh": 24
     },
     {
       "id": 13,
       "name": "Pea",
       "costPerServing": 0.65,
-      "weightInGramsPerServing": 50,
-      "supplierId": 2
+      "weightPerServing": 50,
+      "supplierId": 2,
+      "hoursFresh": 24
     },
     {
       "id": 14,
       "name": "Pickle",
       "costPerServing": 0.4,
-      "weightInGramsPerServing": 35,
-      "supplierId": 3
+      "weightPerServing": 35,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 15,
       "name": "Carrot",
       "costPerServing": 0.35,
-      "weightInGramsPerServing": 75,
-      "supplierId": 1
+      "weightPerServing": 75,
+      "supplierId": 1,
+      "hoursFresh": 48
     },
     {
       "id": 16,
       "name": "Cellery",
       "costPerServing": 0.75,
-      "weightInGramsPerServing": 50,
-      "supplierId": 1
+      "weightPerServing": 50,
+      "supplierId": 1,
+      "hoursFresh": 24
     },
     {
       "id": 17,
       "name": "Corn",
       "costPerServing": 0.3,
-      "weightInGramsPerServing": 50,
-      "supplierId": 4
+      "weightPerServing": 50,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 18,
       "name": "Beet",
       "costPerServing": 0.4,
-      "weightInGramsPerServing": 30,
-      "supplierId": 2
+      "weightPerServing": 30,
+      "supplierId": 2,
+      "hoursFresh": 24
     },
     {
       "id": 19,
       "name": "Olives",
       "costPerServing": 0.6,
-      "weightInGramsPerServing": 45,
-      "supplierId": 4
+      "weightPerServing": 45,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 20,
       "name": "Egg",
       "costPerServing": 0.7,
-      "weightInGramsPerServing": 50,
-      "supplierId": 4
+      "weightPerServing": 50,
+      "supplierId": 4,
+      "hoursFresh": 36
     },
     {
       "id": 21,
       "name": "Tuna",
       "costPerServing": 0.6,
-      "weightInGramsPerServing": 45,
-      "supplierId": 4
+      "weightPerServing": 45,
+      "supplierId": 4,
+      "hoursFresh": 24
     },
     {
       "id": 22,
       "name": "Smoked Salmon",
       "costPerServing": 1.1,
-      "weightInGramsPerServing": 35,
-      "supplierId": 4
+      "weightPerServing": 35,
+      "supplierId": 4,
+      "hoursFresh": 24
     },
     {
       "id": 36,
       "name": "Prawns",
       "costPerServing": 1.3,
-      "weightInGramsPerServing": 35,
-      "supplierId": 4
+      "weightPerServing": 35,
+      "supplierId": 4,
+      "hoursFresh": 24
     },
     {
       "id": 23,
       "name": "Chicken",
       "costPerServing": 0.8,
-      "weightInGramsPerServing": 100,
-      "supplierId": 4
+      "weightPerServing": 100,
+      "supplierId": 4,
+      "hoursFresh": 24
     },
     {
       "id": 24,
       "name": "Feta Cheese",
       "costPerServing": 0.85,
-      "weightInGramsPerServing": 45,
-      "supplierId": 3
+      "weightPerServing": 45,
+      "supplierId": 3,
+      "hoursFresh": 72
     },
     {
       "id": 25,
       "name": "Crunchy Onion",
       "costPerServing": 0.5,
-      "weightInGramsPerServing": 25,
-      "supplierId": 3
+      "weightPerServing": 25,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 26,
       "name": "Crunchy Bacon",
       "costPerServing": 0.65,
-      "weightInGramsPerServing": 25,
-      "supplierId": 3
+      "weightPerServing": 25,
+      "supplierId": 3,
+      "hoursFresh": 120
     },
     {
       "id": 27,
       "name": "Apple",
       "costPerServing": 0.7,
-      "weightInGramsPerServing": 75,
-      "supplierId": 1
+      "weightPerServing": 75,
+      "supplierId": 1,
+      "hoursFresh": 48
     },
     {
       "id": 28,
       "name": "Nuts",
       "costPerServing": 0.8,
-      "weightInGramsPerServing": 35,
-      "supplierId": 2
+      "weightPerServing": 35,
+      "supplierId": 2,
+      "hoursFresh": 120
     },
     {
       "id": 29,
       "name": "Sesame Seeds",
       "costPerServing": 0.7,
-      "weightInGramsPerServing": 25,
-      "supplierId": 2
+      "weightPerServing": 25,
+      "supplierId": 2,
+      "hoursFresh": 120
     },
     {
       "id": 30,
       "name": "Sunflower Seeds",
       "costPerServing": 0.65,
-      "weightInGramsPerServing": 25,
-      "supplierId": 2
+      "weightPerServing": 25,
+      "supplierId": 2,
+      "hoursFresh": 120
     },
     {
       "id": 31,
       "name": "Oil and Vinegar",
       "costPerServing": 0.15,
-      "weightInGramsPerServing": 25,
-      "supplierId": 4
+      "weightPerServing": 25,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 32,
       "name": "Caesar Sauce",
       "costPerServing": 0.1,
-      "weightInGramsPerServing": 25,
-      "supplierId": 4
+      "weightPerServing": 25,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 33,
       "name": "Cocktail Sauce",
       "costPerServing": 0.1,
-      "weightInGramsPerServing": 25,
-      "supplierId": 4
+      "weightPerServing": 25,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 34,
       "name": "Oriental Sauce",
       "costPerServing": 0.1,
-      "weightInGramsPerServing": 25,
-      "supplierId": 4
+      "weightPerServing": 25,
+      "supplierId": 4,
+      "hoursFresh": 120
     },
     {
       "id": 35,
       "name": "Curry Mayo",
       "costPerServing": 0.1,
-      "weightInGramsPerServing": 25,
-      "supplierId": 3
+      "weightPerServing": 25,
+      "supplierId": 3,
+      "hoursFresh": 120
     }
   ],
   "salads": [
@@ -316,7 +366,7 @@
       "currentStock": 0,
       "price": 0.33
     }
-    ],
+  ],
   "subscriptions": [
     {
       "id": 1,
